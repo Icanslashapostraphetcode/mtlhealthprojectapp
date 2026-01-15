@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Daily Check-In</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <h1>Daily Check-In</h1>
+    <p>How are you feeling today?</p>
+
+    <div class="moods">
+      <button data-mood="1">😞</button>
+      <button data-mood="2">😕</button>
+      <button data-mood="3">😐</button>
+      <button data-mood="4">🙂</button>
+      <button data-mood="5">😄</button>
+    </div>
+
+    <textarea id="note" placeholder="Optional: want to say anything?"></textarea>
+
+    <button id="submit">Check In</button>
+
+    <div id="feedback"></div>
+    <div id="history"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
