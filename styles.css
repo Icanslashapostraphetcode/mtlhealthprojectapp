@@ -7,7 +7,7 @@ body {
 }
 
 .app {
-  background: white;
+  background: orange;
   padding: 25px;
   border-radius: 12px;
   width: 320px;
@@ -41,7 +41,7 @@ textarea {
 
 #feedback {
   margin-top: 15px;
-  font-size: 14px;
+  font-size: 17px;
 }
 
 #history {
@@ -49,3 +49,4 @@ textarea {
   font-size: 12px;
   color: #555;
 }
+
